@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Starts */
+.header--left img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.header--left {
+    display: flex;
+}
+
+.header--right {
+    display: flex;
+}
+
+.header--search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: blue;
+    background-color: #eef3f8;
+}
+
+.header--search input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header--menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.header--menu:hover {
+    color: blue;
+}
+
+.header--menu h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.header--menu--icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+/* Header Ends */
+
+/* Body Contents Start */
+
+.body--main {
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 80px;
+    flex: 0.3;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+/* .sidebar--top {
+    background-color: red;
+} */
+
+.sidebar--top img {
+    margin-bottom: -10%;
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    /* background-color: red; */
+}
+
+.sidebar--top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightslategray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.sidebar--top--avatar {
+    font-size: 40px;
+    color: white;
+}
+
+.sidebar--middle {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightslategray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar--mid {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar--mid p {
+    color: gray;
+    font-size: 13;
+    font-weight: 600;
+}
+
+.side--bar--midCount {
+    font-weight: bold;
+    color: blue !important;
+}
+
+.sidebar--top h4 {
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.sidebar--top h2 {
+    font-size: 18px;
+}
+
+.sidebar--bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sidebar--recentItems {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar--recentItems:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+/* feeds Starts */
+.feed {
+    flex: 0.8;
+    margin: 0 20px;
+}
+
+.feed--inputContaner {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed--input {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;  
+}
+
+.feed--input form {
+    width: 100%;
+}
+
+.feed--input form input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed--inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -75px;
+}
+
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption h4 {
+    font-weight: bolder;
+    color: black;
+}
+
+/* Post Starts */
+
+.post {
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.posters--info {
+    display: flex;
+    padding: 10px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.post .space{
+    font-size: 50px;
+}
+
+.poster-verify {
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.post--message h3 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.post-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-left: -107px;
+    margin-bottom: 15px;
+}
+
+/* widgets start */
+
+.widgets {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widget--header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widgets--article {
+    display: flex;
+    margin-left: -300px;
+    margin-right: 40px;
+
+}
+
+/* Body Contents Ends */
