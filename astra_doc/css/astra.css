@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f2ef;
+}
+
+.header {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header--left {
+    font-size: 40px;
+}
+
+.header--right img {
+    /* width: 400px;
+    height: 200px; */
+    width: auto;
+    height: auto;
+}
+
+.posters--info {
+    display: flex;
+    padding: 10px;
+    margin-left: 5px;
+    align-items: center;
+}
+.reg--form {
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 50px solid #ffffff;
+    background: lightgray;
+}
+
+.reg--form .space{
+    font-size: 290px;
+}
+
+/* flex styling */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 0.5;
+    margin-left: 10px;
+    /* border: 2px solid yellow; */
+    /* background-color: green; */
+}  
+
+.flex-childs {
+    flex: 0.5;
+    margin-right: 10px;
+    /* background-color: yellow; */
+    font-weight: bolder;
+    font-size: 18px;
+}  
+
+
+/* .reg--header {
+    background: red;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+     margin: auto; 
+    align-items: center;
+
+} */
+
+.title, .marital-status--type, .name--field, .date-nationality--field, .home-town--field, .spouse-name--field, .parent-name--field, .turn-over--field, .children--field, .known--field, .house-no--field, .room-no--field, .LGA--field, .business-nature--field, .business-description--field, .nature-of-business--field, .account-no--field, .account--type, .reason--field, .identification--field, .phone-no--field, .income--field, .residence--field, .home-description--field, .situate--field, .ownership-status--field, .years--field, .cordinates--field {
+    /* background-color: #ffffff; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.title--left, .name--left, .date--side {
+    flex: 0.5;
+    background-color:#fff;
+    width: auto;
+    border-radius: 5px;
+
+}
+
+.title--right, .name--right, .nationality--side {
+    flex: 0.5;   
+    margin-left: 10px;
+    background-color:#fff;
+    width: auto;
+    border-radius: 5px;
+
+}
+/* .titles {
+    border-radius: 5px;
+} */
+
+.title, .marital-status--type, .name--field, .date-nationality--field, .home-town--field, .spouse-name--field, .parent-name--field, .turn-over--field, .children--field, .known--field, .house-no--field, .room-no--field, .LGA--field, .business-nature--field, .business-description--field, .nature-of-business--field, .account-no--field, .account--type, .reason--field, .identification--field, .phone-no--field, .income--field, .residence--field, .home-description--field, .situate--field, .ownership-status--field, .years--field, .cordinates--field {
+    /* flex-direction: column; */
+    border-radius: 5px;
+
+    /* padding: 10px; */
+}
+
+.title--select, .marital-status--select, .name--select, .date--selected, .nationality--select, .home-town--select, .spouse-name--select, .parent-name--select, .turn-over--select, .children--select, .known--select, .house-no--select, .room-no--select, .LGA--select, .business-nature--select, .business-description--select, .nature-of-business--select, .account-no--select, .account--type, .reason--select, .identification--select, .phone-no--select, .income--select, .residence--select, .home-description--select, .situate--select, .ownership-status--select, .years--select, .cordinates--field {
+    margin-bottom: 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.name--select input, .date--join input, .date--joins textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.nationality--side {
+    width: 500px;
+    margin-top: 15px;
+}
+.date--joins {
+    margin-bottom: 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+/* .date--join input {
+    padding-left: 100px;
+    background: brown;
+} */
