@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.overall-container {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content {
+    background-color: red;
+}
+
+section {
+    padding: 10rem 0;
+    background-color: #fff;
+}
+.container {
+    background-color: none;
+    /* border-radius: 10px; */
+}
+
+.container .card {
+    background-color: none;
+    /* height: 50px; */
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 3.5px;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.heading::after {
+    content: "";
+    width: 10px;
+    height: 0.px;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2r2pxm;
+}
+
+.card--wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 200px;
+    /* background-color: #ebeef8; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0;
+    box-shadow: .5px .5px 3px rgba(0,0,0,0.2);
+}
+
+.card .card--image {
+    width: 200px;
+    height: 350px;
+    /* object-fit: cover; */
+}
+
+.fd--div {
+    position: relative;
+    left: -50px;
+    top: -290px;
+    width: 45px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ebeef8;
+    /* margin-top: -311px; */
+    /* z-index: 999; */
+}
+
+.profile--image {
+    width: 95px;
+    height: 95px;
+    /* object-fit: cover; */
+    border-radius: 20px 20px;
+    margin-top: -400px;
+    left: 40px;
+    z-index: 999;
+    /* border: 1px solid #ebeef8; */
+    position: relative;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+}
+
+.job--title {
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.card .btn {
+    padding: 1rem 2.5rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+    transition: all .5s;
+}
+
+.card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.social--media {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.social--media i {
+    font-size: 3em;
+    transition: color .5s;
+}
+
+.fa-facebook-square {
+    color: #3b5999;
+    font-size: 30px;
+}
+
+.fa-twitter-square {
+    color: #55acce;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: #e6683c;
+    font-size: 30px;
+}
+
+.fa-google-plus-square {
+    color: #dd4b39;
+    font-size: 30px;
+}
+
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-instagram:hover, .fa-google-plus-square:hover {
+    color: #45e19f;
+}
+
+@media screen and (min-width:700px) {
+    .card--wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin: 2rem;
+        transition: transform .5s;
+    }
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .card:nth-child(1) {
+        animation: fadeIn .5s .5s backwards;
+    }
+    .card:nth-child(2) {
+        animation: fadeIn .5s .1s backwards;
+    }
+    .card:nth-child(3) {
+        animation: fadeIn .5s 1.5s backwards;
+    }
+    .card:nth-child(4) {
+        animation: fadeIn .5s .2s backwards;
+    }
+
+    .card:hover {
+        transform: scale(2.25);
+        transform: translateY(-2px);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
